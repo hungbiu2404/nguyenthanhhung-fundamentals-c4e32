@@ -3,6 +3,7 @@ from turtle import *
 shape('turtle')
 size = 40
 speed(400)
+
 for i in range(size):
 
     right(90)
@@ -13,4 +14,5 @@ for i in range(size):
     circle(120,360)
     end_fill()
     circle(150)
-    
+
+mainloop()   

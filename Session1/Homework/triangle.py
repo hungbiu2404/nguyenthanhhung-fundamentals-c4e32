@@ -1,15 +1,15 @@
 from turtle import *
 
-speed(2)
+speed(1)
 
 shape('turtle')
 fillcolor('yellow')
 begin_fill()
-forward(100)
-left(120)
-forward(100)
-left(120)
-forward(100)
+
+for i in range(3):
+    forward(100)
+    left(120)
+
 end_fill()
 mainloop()
 
